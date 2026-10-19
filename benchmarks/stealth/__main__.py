@@ -7,6 +7,11 @@ Command line entry point.
     python -m benchmarks.stealth chrome --milestone previous --dest .chrome
 """
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import asyncio
 import os
